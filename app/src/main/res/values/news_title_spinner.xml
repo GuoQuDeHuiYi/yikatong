@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title_news_spinner">
+        <item>学院快讯</item>
+        <item>媒体牧院</item>
+        <item>学院公告</item>
+        <item>内网通知</item>
+        <item>工作安排</item>
+    </string-array>
+</resources>

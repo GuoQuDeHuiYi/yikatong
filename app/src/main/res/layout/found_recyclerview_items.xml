@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#94a5ef"
+
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/found_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="号外 号外......图书借阅排名TOP10新鲜出炉"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/found_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/found_title"
+            android:layout_marginTop="5dp"
+            android:text="2017-12-26" />
+
+        <ImageView
+            android:id="@+id/found_bigimg"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/found_time"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/found_futitle"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/found_bigimg"
+            android:layout_marginTop="11dp"
+            android:singleLine="true"
+            android:text="流金岁月，如同一幅平凡的画，。。。"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/fount_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/found_bigimg"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@id/found_num"
+            android:src="@drawable/ic_thumb_up_black_24dp" />
+
+        <TextView
+            android:id="@+id/found_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/found_bigimg"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="11dp"
+            android:text="5"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

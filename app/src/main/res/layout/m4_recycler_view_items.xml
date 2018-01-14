@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/m4_img"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:padding="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_search_black_24dp" />
+
+    <TextView
+        android:id="@+id/m4_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/m4_img"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:lines="2"
+        android:text="吉文林书记出席“辽宁?江苏高职院校书记校长论坛”并作主旨演讲" />
+
+    <TextView
+        android:id="@+id/m4_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m4_title_tv"
+        android:layout_toEndOf="@+id/m4_img"
+        android:paddingLeft="10dp"
+        android:text="01-03 学院官网" />
+</RelativeLayout>
